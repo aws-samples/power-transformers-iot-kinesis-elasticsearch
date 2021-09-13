@@ -1,0 +1,273 @@
+[
+  {
+    "_id": "ee90f3a0-9ab0-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "gauge-avg-oil-temperature",
+      "visState": "{\"title\":\"gauge-avg-oil-temperature\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":80},{\"from\":80,\"to\":105},{\"from\":105,\"to\":150}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"oilTemperature\",\"customLabel\":\"Average Oil Temperature\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 105\":\"rgb(255,255,190)\",\"105 - 150\":\"rgb(165,0,38)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "0ff6c1a0-9ab1-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "gauge-avg-moisture-level",
+      "visState": "{\"title\":\"gauge-avg-moisture-level\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":3},{\"from\":3,\"to\":5},{\"from\":5,\"to\":10}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"moistureLevel\",\"customLabel\":\"Average Moisture Level\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(0,104,55)\",\"3 - 5\":\"rgb(255,255,190)\",\"5 - 10\":\"rgb(165,0,38)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "39601af0-9ab1-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "gauge-avg-noise-level",
+      "visState": "{\"title\":\"gauge-avg-noise-level\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":80},{\"from\":80,\"to\":100},{\"from\":100,\"to\":140}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"noiseLevel\",\"customLabel\":\"Average Noise Level\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 100\":\"rgb(255,255,190)\",\"100 - 140\":\"rgb(165,0,38)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "71c24f30-9ab1-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "gauge-avg-oil-level",
+      "visState": "{\"title\":\"gauge-avg-oil-level\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":30},{\"from\":30,\"to\":50},{\"from\":50,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"oilLevel\",\"customLabel\":\"Average Oil Level\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 30\":\"rgb(0,104,55)\",\"30 - 50\":\"rgb(255,255,190)\",\"50 - 100\":\"rgb(165,0,38)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "6bdc97a0-9aad-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "pie-noise-level",
+      "visState": "{\"title\":\"pie-noise-level\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"name\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"noiseLevel\",\"ranges\":[{\"from\":0,\"to\":60},{\"from\":60,\"to\":100},{\"from\":100,\"to\":140}],\"customLabel\":\"Noise Level\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"61 to 100\":\"#E5AC0E\",\"101 to 140\":\"#BF1B00\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "b302ed20-9aab-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "number-of-power-transformers",
+      "visState": "{\"title\":\"number-of-power-transformers\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"name\",\"customLabel\":\"Number of Power Transformers\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "acd90700-9aaf-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "avg-temperature",
+      "visState": "{\"title\":\"avg-temperature\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"temperature\",\"customLabel\":\"Average Temperature\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "c891e3e0-9aaf-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "avg-humidity",
+      "visState": "{\"title\":\"avg-humidity\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"humidity\",\"customLabel\":\"Average Humidity\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "power-transformer-telemetry-data",
+    "_type": "index-pattern",
+    "_source": {
+      "title": "power-transformer",
+      "timeFieldName": "timestamp",
+      "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"gasEmissionLevel\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"humidity\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"location\",\"type\":\"geo_point\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"moistureLevel\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"noiseLevel\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"oilLevel\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"oilTemperature\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"temperature\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"timestamp\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"riskOfFailure\",\"type\":\"number\",\"count\":0,\"scripted\":true,\"script\":\"int riskOfFailure = 0;\\n\\nif (doc['gasEmissionLevel'].value > 10) { riskOfFailure = riskOfFailure + 5; }\\n\\nif (doc['gasEmissionLevel'].value > 15) { riskOfFailure = riskOfFailure + 20; }\\n\\nif (doc['moistureLevel'].value > 3) { riskOfFailure = riskOfFailure + 5; }\\n\\nif (doc['moistureLevel'].value > 5) { riskOfFailure = riskOfFailure + 20; }\\n\\nif (doc['oilLevel'].value < 30) { riskOfFailure = riskOfFailure + 10; }\\n\\nif (doc['oilLevel'].value > 30 && doc['oilLevel'].value < 50) { riskOfFailure = riskOfFailure + 5; }\\n\\nif (doc['oilTemperature'].value > 80) { riskOfFailure = riskOfFailure + 5; }\\n\\nif (doc['oilTemperature'].value > 105) { riskOfFailure = riskOfFailure + 15; }\\n\\nif (doc['noiseLevel'].value > 80) { riskOfFailure = riskOfFailure + 5; }\\n\\nif (doc['noiseLevel'].value > 100) { riskOfFailure = riskOfFailure + 15 }\\n\\nreturn riskOfFailure;\",\"lang\":\"painless\",\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false}]",
+      "fieldFormatMap": "{\"riskOfFailure\":{}}"
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a4f71800-9ab0-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "gauge-avg-gas-emission-level",
+      "visState": "{\"title\":\"gauge-avg-gas-emission-level\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":10},{\"from\":10,\"to\":15},{\"from\":15,\"to\":30}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"gasEmissionLevel\",\"customLabel\":\"Average Gas Emission Level\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 10\":\"rgb(0,104,55)\",\"10 - 15\":\"rgb(255,255,190)\",\"15 - 30\":\"rgb(165,0,38)\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "9bf931b0-9ab1-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "control-power-transformer",
+      "visState": "{\"title\":\"control-power-transformer\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1589989776935\",\"indexPattern\":\"power-transformer-telemetry-data\",\"fieldName\":\"name\",\"parent\":\"\",\"label\":\"Power Transformers\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"dynamicOptions\":true,\"size\":5,\"order\":\"desc\"}}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "dc51d1e0-9ab1-11ea-ac49-873600fd09b8",
+    "_type": "visualization",
+    "_source": {
+      "title": "map-power-transformer",
+      "visState": "{\"title\":\"map-power-transformer\",\"type\":\"tile_map\",\"params\":{\"colorSchema\":\"Green to Red\",\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":true,\"options\":{\"format\":\"image/png\",\"transparent\":true,\"layers\":\"OSM-WMS\",\"version\":\"1.1.1\",\"styles\":\"default\"},\"selectedTmsLayer\":{\"origin\":\"elastic_maps_service\",\"id\":\"road_map\",\"minZoom\":0,\"maxZoom\":10,\"attribution\":\"<p>&#169; <a href=\\\"https://www.openstreetmap.org/copyright\\\">OpenStreetMap contributors</a>|<a href=\\\"https://openmaptiles.org\\\">OpenMapTiles</a>|<a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\"},\"url\":\"https://ows.terrestris.de/osm/service\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"riskOfFailure\",\"customLabel\":\"Risk of Failure\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"mapZoom\":16,\"mapCenter\":{\"lon\":-46.68562889099122,\"lat\":-23.596858755067714},\"mapBounds\":{\"bottom_right\":{\"lat\":-23.60437982124878,\"lon\":-46.678011417388916},\"top_left\":{\"lat\":-23.589337257598476,\"lon\":-46.69324636459351}},\"precision\":7}}]}",
+      "uiStateJSON": "{\"mapZoom\":15,\"mapCenter\":[-23.596858755067714,-46.68562889099122]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"power-transformer-telemetry-data\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "c135d470-9ab5-11ea-ac49-873600fd09b8",
+    "_type": "dashboard",
+    "_source": {
+      "title": "overview-dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":15,\"i\":\"1\"},\"version\":\"6.8.0\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"id\":\"dc51d1e0-9ab1-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15,\"i\":\"2\"},\"version\":\"6.8.0\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"id\":\"b302ed20-9aab-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":24,\"y\":15,\"w\":24,\"h\":15,\"i\":\"3\"},\"version\":\"6.8.0\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"6bdc97a0-9aad-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{\"vis\":{\"colors\":{\"61 to 100\":\"#E5AC0E\",\"101 to 140\":\"#BF1B00\",\"60 to 100\":\"#E5AC0E\",\"100 to 140\":\"#BF1B00\"},\"legendOpen\":true}}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "45ba3ce0-9ab6-11ea-ac49-873600fd09b8",
+    "_type": "dashboard",
+    "_source": {
+      "title": "details-dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":10,\"i\":\"1\"},\"version\":\"6.8.0\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"id\":\"9bf931b0-9ab1-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":11,\"y\":0,\"w\":6,\"h\":10,\"i\":\"2\"},\"version\":\"6.8.0\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"id\":\"acd90700-9aaf-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":18,\"y\":0,\"w\":6,\"h\":10,\"i\":\"3\"},\"version\":\"6.8.0\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"c891e3e0-9aaf-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":8,\"y\":10,\"w\":8,\"h\":10,\"i\":\"4\"},\"version\":\"6.8.0\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"id\":\"a4f71800-9ab0-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 10\":\"rgb(0,104,55)\",\"10 - 15\":\"rgb(255,255,190)\",\"15 - 30\":\"rgb(165,0,38)\"},\"legendOpen\":false}}},{\"gridData\":{\"x\":0,\"y\":10,\"w\":8,\"h\":10,\"i\":\"5\"},\"version\":\"6.8.0\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"id\":\"ee90f3a0-9ab0-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 80\":\"rgb(0,104,55)\",\"80 - 105\":\"rgb(255,255,190)\",\"105 - 150\":\"rgb(165,0,38)\"},\"legendOpen\":false}}},{\"gridData\":{\"x\":16,\"y\":10,\"w\":8,\"h\":10,\"i\":\"6\"},\"version\":\"6.8.0\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"id\":\"0ff6c1a0-9ab1-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(0,104,55)\",\"3 - 5\":\"rgb(255,255,190)\",\"5 - 10\":\"rgb(165,0,38)\"},\"legendOpen\":false}}},{\"gridData\":{\"x\":0,\"y\":20,\"w\":12,\"h\":15,\"i\":\"7\"},\"version\":\"6.8.0\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"id\":\"39601af0-9ab1-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":12,\"y\":20,\"w\":12,\"h\":15,\"i\":\"8\"},\"version\":\"6.8.0\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"id\":\"71c24f30-9ab1-11ea-ac49-873600fd09b8\",\"embeddableConfig\":{}}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]

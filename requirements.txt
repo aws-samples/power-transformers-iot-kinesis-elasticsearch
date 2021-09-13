@@ -1,0 +1,12 @@
+aws-cdk.core
+
+aws-cdk.aws-s3
+aws-cdk.aws-lambda
+aws-cdk.aws_s3_notifications
+aws-cdk.aws-iot
+aws-cdk.aws-dynamodb
+aws_cdk.aws_elasticsearch
+aws_cdk.aws_cognito
+aws_cdk.aws_iam
+aws_cdk.aws_cloudformation
+aws_cdk.aws_kinesisfirehose

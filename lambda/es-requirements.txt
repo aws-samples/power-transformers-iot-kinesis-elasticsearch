@@ -1,0 +1,4 @@
+crhelper
+elasticsearch
+requests
+requests_aws4auth
